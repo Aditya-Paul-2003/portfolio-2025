@@ -1,8 +1,29 @@
-import Button from "../components/Button";
-import HeroExperience from "../components/HeroModels/HeroExperience";
-import { words } from "../constants";
+import AnimatedCounter from "../components/AnimatedCounter.jsx";
+import Button from "../components/Button.jsx";
+import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
+import { words } from "../constants/index.js";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+
+
 
 const Hero = () => {
+
+    useGSAP(() => {
+        gsap.fromTo('.hero-text h1',
+            {
+                y: 50,
+                opacity: 0
+            },
+            {
+                y: 0,
+                opacity: 1,
+                stagger: 0.2,
+                duration: 1,
+                else: 'power2.inOut'
+            })
+    })
+
   return (
    <section id="hero" className='relative overflow-hidden'>
     <div className="absolute top-0 left-0 z-10">
@@ -36,7 +57,7 @@ const Hero = () => {
                     <h1>that Deliver Results</h1>
                 </div>
                 <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                    Hi, I'm Aditya <br/>A full-stack developer from India. Blending logic with aesthetics,<br />Passionate about clean code and sleek design.
+                    Hi, I'm Aditya Paul<br/>A full-stack developer from India. Blending logic with aesthetics,<br/>Passionate about clean code and sleek design.
                 </p>
                 <Button 
                     className="md:w-80 md:h-16 w-60 h-12"
@@ -53,10 +74,8 @@ const Hero = () => {
                 <HeroExperience/>
             </div>
         </figure>
-
-
     </div>
-
+    <AnimatedCounter/>
    </section>
   )
 }
