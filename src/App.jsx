@@ -1,11 +1,15 @@
+import LogoSection from "./components/LogoSection"
+import NavBar from "./components/Navbar"
 import Hero from "./sections/Hero"
 import ShowcaseSection from "./sections/ShowcaseSection"
 
 const App = () => {
   return (
     <>
-        <Hero/>
-        <ShowcaseSection/>
+      <NavBar/>
+      <Hero/>
+      <ShowcaseSection/>
+      <LogoSection/>
     </>
   )
 }
