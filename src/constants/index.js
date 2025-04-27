@@ -91,8 +91,8 @@ const navLinks = [
   
   const techStackImgs = [
     {
-      name: "React Developer",
-      imgPath: "/images/logos/react.png",
+      name: "MongoDB",
+      imgPath: "/images/logos/MongoDB.svg",
     },
     {
       name: "Python Developer",
@@ -114,15 +114,15 @@ const navLinks = [
   
   const techStackIcons = [
     {
-      name: "React Developer",
+      name: "Frontend Developer",
       modelPath: "/models/react_logo-transformed.glb",
       scale: 1,
       rotation: [0, 0, 0],
     },
     {
-      name: "Python Developer",
-      modelPath: "/models/python-transformed.glb",
-      scale: 0.8,
+      name: "Ui/Ux Designer",
+      modelPath: "/models/figma-transformed.glb",
+      scale: 2.3,
       rotation: [0, 0, 0],
     },
     {
@@ -138,7 +138,7 @@ const navLinks = [
       rotation: [0, 0, 0],
     },
     {
-      name: "Project Manager",
+      name: "Version Control",
       modelPath: "/models/git-svg-transformed.glb",
       scale: 0.05,
       rotation: [0, -Math.PI / 4, 0],
