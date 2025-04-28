@@ -12,7 +12,10 @@ import * as THREE from "three";
 export function Room(props) {
   const { nodes, materials } = useGLTF("/models/optimized-room.glb");
   const screensRef = useRef();
-  const matcapTexture = useTexture("/images/textures/mat1.png");
+  const matcapTexture = useTexture("/images/textures/beige1.png");
+
+  // You can adjust the numbers later if needed
+
 
   const curtainMaterial = new THREE.MeshPhongMaterial({
     color: "#d90429",
@@ -20,6 +23,7 @@ export function Room(props) {
 
   const bodyMaterial = new THREE.MeshPhongMaterial({
     map: matcapTexture,
+
   });
 
   const tableMaterial = new THREE.MeshPhongMaterial({
@@ -27,15 +31,15 @@ export function Room(props) {
   });
 
   const radiatorMaterial = new THREE.MeshPhongMaterial({
-    color: "#fff",
+    color: "#aba93f",
   });
 
   const compMaterial = new THREE.MeshStandardMaterial({
-    color: "#fff",
+    color: "#000",
   });
 
   const pillowMaterial = new THREE.MeshPhongMaterial({
-    color: "#8338ec",
+    color: "#800a0a",
   });
 
   const chairMaterial = new THREE.MeshPhongMaterial({
@@ -58,6 +62,7 @@ export function Room(props) {
         material={curtainMaterial}
       />
       <mesh geometry={nodes.body1_blinn1_0.geometry} material={bodyMaterial} />
+
       <mesh geometry={nodes.cabin_blinn1_0.geometry} material={tableMaterial} />
       <mesh
         geometry={nodes.chair_body_blinn1_0.geometry}

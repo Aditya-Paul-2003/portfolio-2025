@@ -148,8 +148,8 @@ const navLinks = [
   const expCards = [
     {
       review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-      imgPath: "/images/exp1.png",
-      logoPath: "/images/logo1.png",
+      imgPath: "/images/cisce.jpg",
+      logoPath: "/images/cisce1.svg",
       title: "Frontend Developer",
       date: "January 2023 - Present",
       responsibilities: [
@@ -160,8 +160,8 @@ const navLinks = [
     },
     {
       review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-      imgPath: "/images/exp2.png",
-      logoPath: "/images/logo2.png",
+      imgPath: "/images/cisce.jpg",
+      logoPath: "/images/cisce1.svg",
       title: "Full Stack Developer",
       date: "June 2020 - December 2023",
       responsibilities: [
@@ -173,7 +173,7 @@ const navLinks = [
     {
       review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
       imgPath: "/images/exp3.png",
-      logoPath: "/images/logo3.png",
+      logoPath: "/images/makaut.svg",
       title: "React Native Developer",
       date: "March 2019 - May 2020",
       responsibilities: [
@@ -247,18 +247,22 @@ const navLinks = [
   const socialImgs = [
     {
       name: "insta",
+      url: "https://www.instagram.com/iadityapaul/",
       imgPath: "/images/insta.png",
     },
     {
-      name: "fb",
-      imgPath: "/images/fb.png",
+      name: "github",
+      url: "https://github.com/Aditya-Paul-2003",
+      imgPath: "/images/github.png",
     },
     {
       name: "x",
+      url: "https://x.com/AdityaPaul59313",
       imgPath: "/images/x.png",
     },
     {
       name: "linkedin",
+      url: "https://www.linkedin.com/in/iamadityapaul/",
       imgPath: "/images/linkedin.png",
     },
   ];

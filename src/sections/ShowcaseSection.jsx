@@ -49,7 +49,7 @@ const ShowcaseSection = () => {
       <div className="w-full">
         <div className="showcaselayout">
             {/* LEFT */}
-            <div className="first-project-wrapper" ref={project1Ref}>
+            <div className="first-project-wrapper" ref={project1Ref} >
                 <div className="imag-wrapper">
                     <img src="/images/project1.png" alt="Ryde" />
                 </div>
@@ -66,7 +66,7 @@ const ShowcaseSection = () => {
                     <div className="image-wrapper bg-[#ffefdb]">
                         <img src="/images/project2.png" alt="Library Management Platform" />
                     </div>
-                    <h2>Upcoming Projects</h2>
+                    <h2>My Portfolio Project</h2>
                 </div>
 
 
@@ -74,7 +74,7 @@ const ShowcaseSection = () => {
                     <div className="image-wrapper bg-[#ffe7eb]">
                         <img src="/images/project3.png" alt="YC Directory" />
                     </div>
-                    <h2>Projects under Progress</h2>
+                    <h2>Figma Projects Ui/Ux. Ambula App Redesign</h2>
                 </div>
             </div>
         </div>
