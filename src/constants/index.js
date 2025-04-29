@@ -30,9 +30,9 @@ const navLinks = [
   
   const counterItems = [
     { value: 3, suffix: "+", label: "✅ Completed Projects" },
-    { value: 10, suffix: "+", label: "📖 Technologies Learned" },
-    { value: 5, suffix: "+", label: "👁️ Portfolio Visits)" },
-    { value: 100, suffix: "+", label: "📝 Commits on GitHub" },
+    { value: 10, suffix: "+", label: "📚 Technologies Explored" },
+    { value: 5, suffix: "+", label: "🎯 Hackathons / Competitions Participated" },
+    { value: 2, suffix: "+", label: "🚀 Live Deployments" },
   ];
   
   const logoIconsList = [
@@ -227,7 +227,7 @@ const navLinks = [
       name: "Partha Basak",
       mentions: "@parthabasak",
       review:
-        "Aditya Paul's technical prowess in MERN stack and UI/UX design is matched only by his exceptional teamwork skills. He's a creative problem-solver who consistently delivers high-quality solutions, meeting deadlines and surpassing expectations. I've had the pleasure of working with Aditya, and I can confidently attest that he's an invaluable asset to any team. Highly recommended!",
+        "Aditya Paul's technical expertise in the MERN stack and UI/UX is just great, but what sets him apart is his excellent team spirit and communication skills. He approaches every project with a creative mindset and a decent problem-solving ability, always delivering high-quality, reliable solutions within timelines—often delivering more than expected. It has been an absolute pleasure to work with Aditya; he does not just bring competence, but also passion and enthusiasm to the team. Highly recommend.",
       imgPath: "/images/client6.png",
     },
     
