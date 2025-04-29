@@ -66,10 +66,7 @@ const navLinks = [
     {
       imgPath: "/images/logos/company-logo-10.png",
     },
-    {
-      imgPath: "/images/logos/company-logo-11.png",
-    },
-  ];
+];
   
   const abilities = [
     {
