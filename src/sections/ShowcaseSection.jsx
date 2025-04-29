@@ -49,7 +49,13 @@ const ShowcaseSection = () => {
       <div className="w-full">
         <div className="showcaselayout">
             {/* LEFT */}
-            <div className="first-project-wrapper" ref={project1Ref} >
+            <a
+                href="https://lumio-chat.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="first-project-wrapper"
+                ref={project1Ref}
+            >
                 <div className="imag-wrapper">
                     <img src="/images/project1.png" alt="Ryde" />
                 </div>
@@ -59,23 +65,24 @@ const ShowcaseSection = () => {
                     A real-time chat app built with React, Node.js, Express, & MongoDB for a seamless and interactive messaging experience.
                     </p>
                 </div>
-            </div>
+            </a>
             {/* RIGHT */}
+            
             <div className="project-list-wrapper overflow-hidden">
-                <div className="project" ref={project2Ref}>
+                <a href='/' className="project" ref={project2Ref}>
                     <div className="image-wrapper bg-[#ffefdb]">
                         <img src="/images/project2.png" alt="Library Management Platform" />
                     </div>
                     <h2>My Portfolio Project</h2>
-                </div>
+                </a>
 
-
-                <div className="project" ref={project3Ref}>
+                <a href='' className="project" ref={project3Ref}>
                     <div className="image-wrapper bg-[#ffe7eb]">
                         <img src="/images/project3.png" alt="YC Directory" />
                     </div>
                     <h2>Figma Projects Ui/Ux. Ambula App Redesign</h2>
-                </div>
+                    <h3>Contact me for access to the design</h3>
+                </a>
             </div>
         </div>
       </div>
