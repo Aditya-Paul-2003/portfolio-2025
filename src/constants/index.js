@@ -29,10 +29,10 @@ const navLinks = [
   ];
   
   const counterItems = [
-    { value: 2, suffix: "+", label: "Years of Experience" },
-    { value: 5, suffix: "+", label: "Satisfied Clients" },
-    { value: 3, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value: 3, suffix: "+", label: "✅ Completed Projects" },
+    { value: 10, suffix: "+", label: "📖 Technologies Learned" },
+    { value: 5, suffix: "+", label: "👁️ Portfolio Visits)" },
+    { value: 100, suffix: "+", label: "📝 Commits on GitHub" },
   ];
   
   const logoIconsList = [
@@ -74,18 +74,18 @@ const navLinks = [
   const abilities = [
     {
       imgPath: "/images/seo.png",
-      title: "Quality Focus",
-      desc: "Delivering high-quality results while maintaining attention to every detail.",
+      title: "Creative Vision",
+      desc: "Transforming ideas into visually stunning and functional experiences that users love.",
     },
     {
       imgPath: "/images/chat.png",
-      title: "Reliable Communication",
-      desc: "Keeping you updated at every step to ensure transparency and clarity.",
+      title: "Problem Solving",
+      desc: "Tackling complex challenges with thoughtful design and scalable development solutions.",
     },
     {
       imgPath: "/images/time.png",
-      title: "On-Time Delivery",
-      desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+      title: "Client-Centric Approach",
+      desc: "Focusing on your goals, feedback, and success every step of the way.",
     },
   ];
   
@@ -151,12 +151,12 @@ const navLinks = [
       review: "Internshala Web Development Training. The training consisted of HTML, CSS, Bootstrap, DBMS, PHP, JS, and React",
       imgPath: "/images/logo1.png",
       logoPath: "/images/cisce1.svg",
-      title: "ISCE Standard 10th",
+      institute:"The Modern Academy",
+      title: "ISCE-board Standard 10th",
       date: "2019",
       Overview: [
-        "Developed and maintained user-facing features for the Hostinger website.",
-        "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-        "Optimized web applications for maximum speed and scalability.",
+        "Scored 85% in (class X) Secondary Examination.",
+        "Learned Java Begginers Level",
       ],
     },
     {
@@ -164,12 +164,12 @@ const navLinks = [
       review: "Coincent ArIES IIT ROORKEE. Participated in \"Web Development CSS3 and HTML5\" from 17th Dec, 2022 to 17th Feb, 2023 and successfully completed the program. ",
       imgPath: "/images/logo2.png",
       logoPath: "/images/cisce1.svg",
-      title: "ISC Standard 12th",
+      institute:"The Modern Academy",
+      title: "ISC-board Standard 12th",
       date: "2021",
       Overview: [
-        "Led the development of Docker's web applications, focusing on scalability.",
-        "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-        "Contributed to open-source projects that were used with the Docker ecosystem.",
+        "Scored 81% in (class XII) Higher Secondary Examination.",
+        "Built my first Html & CSS project on Ecommerce",
       ],
     },
     {
@@ -177,12 +177,14 @@ const navLinks = [
       review: "Udemy Certification Course on Javascript from zero to expert successfully completed",
       imgPath: "/images/logo3.png",
       logoPath: "/images/makaut.svg",
-      title: "B.Tech in Electronics & Communication Engineering",
+      institute:"Academy of Technology",
+      title: "MAKAUT B.Tech in Electronics & Communication Engineering",
       date: "2021 - Present ",
       Overview: [
-        "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-        "Improved app performance and user experience through code optimization and testing.",
-        "Coordinated with the product team to implement features based on feedback.",
+        "Currently in \'8th-Sem\' Final-year with 7.56 CGPA",
+        "Actively participated in intra college hackathons",
+        "Secured a Top 3 position in a UI/UX Design Competition, showcasing proficiency in design thinking and interface",
+        "Event Organizer and Coordinator of ClashDevs (Front-end Competition) in College Techfest in 2025 ",
       ],
     },
   ];
@@ -211,8 +213,8 @@ const navLinks = [
       imgPath: "/images/client1.png",
     },
     {
-      name: "naughty",
-      mentions: "@floydmiles",
+      name: "Soumyajit Mondal",
+      mentions: "@soumyajitmondal",
       review:
       "Clean code, quick solutions, and solid logic — you make tech look easy. Always great building with you!",
       imgPath: "/images/client5.png",
@@ -241,10 +243,10 @@ const navLinks = [
     },
    
     {
-      name: "Akhono paini",
-      mentions: "@marvinmckinney",
+      name: "Gunjan Saha",
+      mentions: "@gunjansaha55",
       review:
-        "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+        "Aditya is one of those rare people who’s great at both frontend development and design. He builds clean, responsive interfaces that not only look amazing but work smoothly too. Super reliable, creative, and just great to work with, I highly recommend him.",
       imgPath: "/images/client4.png",
     },
   ];

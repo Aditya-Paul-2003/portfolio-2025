@@ -106,9 +106,9 @@ const ExperienceSection = () => {
                             <img src={card.logoPath} alt="logo" />
                           </div>
                           <div >
-                            <h1 className="font-semibold text-3xl"> { card.title } </h1>
-                            <p className="my-5 text-white-50">{card.date}</p>
-                            <p className="text-[#839cb5] italic">Overview</p>
+                            <h1 className="font-semibold text-3xl"> { card.institute } </h1>
+                            <p className="my-5 text-white-50">{card.title}</p>
+                            <p className="text-[#839cb5] italic">{card.date}</p>
                             <ul className="list-disc ml-5 mt-5 flex flex-col gap-5 text-white-50">
                               {card.Overview.map((responsibility) => (
                                 <li key={responsibility} className="text-lg">
